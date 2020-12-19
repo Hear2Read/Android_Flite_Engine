@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Indic Hear2Read</string>
+    <string name="eng_sample">This is a sample English sentence for the Hear2Read synthesizer.</string>
+
+    <string name="asm_sample">অসমীয়া ভাষা হৈছে সকলোতকৈ পূৰ্বীয় ভাৰতীয়-আৰ্য ভাষা।</string>
+    <string name="asm_demo">অসমীয়া ভাষা হৈছে সকলোতকৈ পূৰ্বীয় ভাৰতীয়-আৰ্য ভাষা। ইয়াক ঘাইকৈ উত্তৰ-পূব ভাৰতৰ অসমত ব্যৱহাৰ কৰা হয়। ই অসমৰ ৰাজ্যিক ভাষা। অৰুণাচল প্ৰদেশৰ কোনো কোনো ঠাইত আৰু উত্তৰ-পূৰ্বাঞ্চলৰ আন আন ৰাজ্যতো অসমীয়াভাষী লোক আছে। অসমীয়া-ভিত্তিক নাগামিজ নামৰ এটা সংযোগী ভাষা নাগালেণ্ডত ব্যাপকভাৱে ব্যৱহাৰ হায়। ভূটানতো কিছুসংখ্যক অসমীয়াভাষী লোক আছে।</string>
+
+    <string name="guj_sample">ગુજરાતી લેખનને વાણીમાં કઈ રીતે ફેરવી શકાય એનો એક નમૂનો અહીં આપ્યો છે.</string>
+    <string name="guj_demo">ગુજરાતી ભારત દેશના ગુજરાત રાજ્યની ઇન્ડો-આર્યન ભાષા છે. તે ઇન્ડો-યુરોપિયન ભાષા કુટુંબનો ભાગ
+        છે. ગુજરાતીનો ઉદ્ભવ જૂની ગુજરાતી ભાષા માંથી થયો છે. તે ગુજરાત રાજ્ય અને દીવ, દમણ અને દાદરા-નગર હવેલી કેન્દ્રશાસિત
+        પ્રદેશોની અધિકૃત ભાષા છે.</string>
+
+    <string name="hin_sample">यह हिंदी बोलने का एक उदाहरण है.</string>
+    <string name="hin_demo">यह हिंदी बोलने का एक उदाहरण है. भारत की जनसंख्या अब 134 करोड़ से अधिक है. 45 करोड़ से ज्यादा लोग भारत में हिंदी बोलते हैं. भारत के इंटरनेट उपयोगकर्ताओं को सामग्री में अधिक विश्वास है जो अंग्रेजी में नहीं है.</string>
+
+    <string name="kan_sample">ಕನ್ನಡ ಮಾತನಾಡುವ ಉದಾಹರಣೆ.</string>
+    <string name="kan_demo">ಕನ್ನಡ ದ್ರಾವಿಡ ಭಾಷೆಗಳಲ್ಲಿ ಪ್ರಾಮುಖ್ಯವುಳ್ಳ ಭಾಷೆ. ಕನ್ನಡ ಭಾಷೆಯನ್ನು ಅದರ ವಿವಿಧ ರೂಪಗಳಲ್ಲಿ ಸುಮಾರು ೪೫ ದಶಲಕ್ಷ ಜನರು ಆಡು ನುಡಿಯಾಗಿ ಬಳಸುತ್ತಲಿದ್ದಾರೆ. ಕನ್ನಡ ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಆಡಳಿತ ಭಾಷೆ. ಜಗತ್ತಿನಲ್ಲಿ ಅತ್ಯಂತ ಹೆಚ್ಚು ಮಂದಿ ಮಾತನಾಡುವ ಭಾಷೆಯೆಂಬ ನೆಲೆಯಲ್ಲಿ ಇಪ್ಪತ್ತೊಂಬತ್ತನೆಯ ಸ್ಥಾನ ಕನ್ನಡಕ್ಕಿದೆ. ವಿನೋಬಾ ಭಾವೆ ಕನ್ನಡ ಲಿಪಿಯನ್ನು ಲಿಪಿಗಳ ರಾಣಿಯೆಂದು ಹೊಗಳಿದ್ದಾರೆ.</string>
+
+    <string name="mal_sample">ഇത് മലയാളത്തിന്റെ പ്രഭാഷണത്തിന്റെ ഉദാഹരണമാണ്.</string>
+    <string name="mal_demo">ഇന്ത്യയിൽ പ്രധാനമായും കേരള സംസ്ഥാനത്തിലും ലക്ഷദ്വീപിലും പുതുച്ചേരിയുടെ ഭാഗമായ മയ്യഴിയിലും സംസാരിക്കപ്പെടുന്ന ഭാഷയാണ് മലയാളം. ഇതു ദ്രാവിഡ ഭാഷാ കുടുംബത്തിൽപ്പെടുന്നു. ഇന്ത്യയിൽ ശ്രേഷ്ഠഭാഷാ പദവി ലഭിക്കുന്ന അഞ്ചാമത്തെ ഭാഷയാണ് മലയാളം.</string>
+
+    <string name="mar_sample">हे मराठी मध्ये लिहिलेले वाक्य बोलण्याचे उदाहरण आहे.</string>
+    <string name="mar_demo">मराठी ही इंडो-युरोपीय भाषाकुलातील एक भाषा आहे. भारतातील प्रमुख २२ भाषांपैकी मराठी एक आहे. महाराष्ट्र आणि गोवा ह्या राज्यांची मराठी ही अधिकृत राजभाषा आहे. मराठी मातृभाषा असणार्‍या लोकसंख्येनुसार मराठी ही जगातील पंधरावी व भारतातील चौथी भाषा आहे.</string>
+
+    <string name="pan_sample">ਇਹ  ਹੀਅਰ ਟੂ ਰੀੜ ਦੁਆਰਾ ਪੰਜਾਬੀ ਬੋਲਣ ਦਾ ਇਕ ਉਦਾਹਰਣ ਹੈ.</string>
+    <string name="pan_demo">ਪੰਜਾਬੀ ਪੰਜਾਬ ਦੀ ਭਾਸ਼ਾ, ਜਿਸ ਨੂੰ ਪੰਜਾਬ ਖੇਤਰ ਦੇ ਵਸਨੀਕ ਜਾਂ ਸੰਬੰਧਤ ਲੋਕ ਬੋਲਦੇ ਹਨ। ਇਹ ਭਾਸ਼ਾਵਾਂ ਦੇ ਹਿੰਦ-ਯੂਰਪੀ ਪਰਵਾਰ ਵਿੱਚੋਂ ਹਿੰਦ-ਇਰਾਨੀ ਪਰਵਾਰ ਨਾਲ ਸਬੰਧ ਰੱਖਦੀ ਹੈ। ਇਹ ਪੰਜਾਬੀਆਂ ਦੀ ਮਾਂ ਬੋਲੀ ਹੈ ਅਤੇ ਸਿੱਖੀ ਦੀ ਧਾਰਮਿਕ ਭਾਸ਼ਾ ਵੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਦੀ ਰਚਨਾ ਕੀਤੀ ਗਈ ਹੈ। ਇਹ ਦੁਨੀਆਂ ਅਤੇ ਖਾਸ ਕਰ ਦੱਖਣੀ ਏਸ਼ੀਆ ਦੇ ਉੱਘੇ ਭੰਗੜਾ ਸੰਗੀਤ ਦੀ ਭਾਸ਼ਾ ਹੈ। ਪਾਕਿਸਤਾਨ ਵਿੱਚ ਇਹ ਸਭ ਤੋਂ ਵੱਧ ਬੋਲੀ ਜਾਣ ਵਾਲੀ ਬੋਲੀ ਹੈ। ਇਸ ਤੋਂ ਬਿਨਾਂ ਸ਼ਬਦ "ਪੰਜਾਬੀ" ਨੂੰ ਪੰਜਾਬ ਨਾਲ ਸਬੰਧਤ ਕਿਸੇ ਵੀ ਚੀਜ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ ਜਿਵੇਂ ਕਿ ਪੰਜਾਬੀ ਬੋਲਣ ਵਾਲਿਆਂ ਅਤੇ ਪੰਜਾਬ ਖਿੱਤੇ ਦੇ ਰਹਿਣ ਵਾਲਿਆ ਨੂੰ ਪੰਜਾਬੀ ਹੀ ਕਿਹਾ ਜਾਂਦਾ ਹੈ।</string>
+
+    <string name="san_sample">संस्कृतवाङ्मयं विश्ववाङ्मये अद्वितीयं स्थानम् अलङ्करोति.</string>
+    <string name="san_demo">संस्कृतम् जगतः एकतमा अतिप्राचीना समृद्धा शास्त्रीया च भाषा वर्तते। संस्कृतं भारतस्य जगत: वा भाषास्वेकतमा‌ प्राचीनतमा। संस्कृता वाक्, भारती, सुरभारती, अमरभारती, अमरवाणी, सुरवाणी, गीर्वाणवाणी, गीर्वाणी, देववाणी, देवभाषा, दैवीवाक्‌ इत्यादिभिः नामभिः एतद्भाषा प्रसिद्धा।</string>
+    <string name="san_copyright">© (2017–2018) Sriranga Digital Software Technologies</string>
+
+    <string name="tam_sample">எழுதிய தமிழை உரக்க பேசுவதற்கு இது ஒரு உதாரணம்.</string>
+    <string name="tam_demo">தமிழ் மொழி தமிழர்களினதும், தமிழ் பேசும் பலரதும் தாய்மொழி ஆகும். தமிழ் திராவிட மொழிக் குடும்பத்தின் முதன்மையான மொழிகளில் ஒன்றும் செம்மொழியும் ஆகும். இரண்டாயிரத்து ஐந்நூறு ஆண்டுகளுக்கும் மேல் பழமை வாய்ந்த இலக்கிய மரபைக் கொண்டுள்ள தமிழ் மொழி, தற்போது வழக்கில் இருக்கும் ஒரு சில செம்மொழிகளில் ஒன்றாகும்.</string>
+    <string name="tam_copyright">© (2013–2016) Indian Inst. of Tech., Madras</string>
+
+    <string name="tel_sample">ఇది తెలుగులో స్వర సమన్వయానికి ఒక ఉదాహరణ.</string>
+    <string name="tel_demo">ఆంధ్ర ప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల అధికార భాష తెలుగు. ప్రపంచంలోని ప్రజలు అత్యధికముగా మాట్లాడే భాషలలో పదమూడవ స్థానములోనూ, భారత దేశములో హిందీ, తర్వాత స్థానములోనూ నిలుస్తుంది. అతి ప్రాచీన దేశ భాషలలో సంస్కృతము తమిళముతో బాటు తెలుగు భాషను 2008 అక్టోబరు 31న భారత ప్రభుత్వము. వెనీసుకు చెందిన వర్తకుడు నికొలో డా కాంటి భారతదేశం గుండా ప్రయాణిస్తూ, తెలుగు భాషలోని పదములు ఇటాలియన్ భాష వలె అజంతాలు  గా ఉండటం గమనించి తెలుగును ఇటాలియన్ అఫ్ ది ఈస్ట్‌గా వ్యవహరించారు.</string>
+    <string name="tel_copyright">© (2017–2018) Samrita Trust, Secunderabad</string>
+
+    <string name="ori_sample">ଏହା ଓଡ଼ିଆରେ ଏକ ଉଦାହରଣ ବାକ୍ୟ ।</string>
+    <string name="ori_demo">ଓଡ଼ିଶା ଭାରତର ପୂର୍ବ ଉପକୂଳରେ ଥିବା ଏକ ରାଜ୍ୟ ଅଟେ । ଓଡ଼ିଆ ଭାଷା ରାଜ୍ୟର ସରକାରୀ ଭାଷା । ଭୁବନେଶ୍ୱର ଏହି ରାଜ୍ୟର ସବୁଠାରୁ ବଡ଼  ସହର ଏବଂ ରାଜଧାନୀ ଅଟେ । ଭାରତର ଦୀର୍ଘତମ ନଦୀବନ୍ଧ ହୀରାକୁଦ, ଏହି ରାଜ୍ୟର ସମ୍ବଲପୁର ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ । ଏହାଛଡ଼ା ଓଡ଼ିଶାରେ ଅନେକ ପର୍ଯ୍ୟଟନ ସ୍ଥଳୀ ରହିଛି । ପୁରୀ, କୋଣାର୍କ ଓ ଭୁବନେଶ୍ୱରକୁ ପୂର୍ବ ଭାରତର ସୁବର୍ଣ୍ଣ ତ୍ରିଭୁଜ ବୋଲି କୁହାଯାଏ । ପୁରୀର ଜଗନ୍ନାଥ ମନ୍ଦିର ଏବଂ ଏହାର ରଥଯାତ୍ରା ବିଶ୍ୱପ୍ରସିଦ୍ଧ । </string>
+
+
+
+    <!--string name="indic_sample">எழுதிய தமிழை உரக்க பேசுவதற்கு இது ஒரு உதாரணம்.</string -->
+    <!--<string name="indic_sample">இதில் எழுதி உள்ளதை பேச்சாக மாற்றும் உதாரணம்.</string>-->
+    <string name="flite_manager">Indic Hear2Read</string>
+    <string name="flite_voice_manager">Hear2Read TTS Voice Management</string>
+    <string name="flite_version">04 October, 2017</string>
+    <string name="voice_list_update">Download Voice List</string>
+    <string name="voice_demo">Indic demo</string>
+    <string name="contact_us">Send Feedback</string>
+    <string name="about">About</string>
+    <string name="about_app">About Indic Hear2Read</string>
+    <string name="menu">Menu</string>
+    <string name="play_button">Play Text</string>
+    <string name="pause_button">Pause Text</string>
+    <string name="play_pause_button">Play Pause Text</string>
+    <string name="email_button">Email Feedback</string>
+    <string name="email_client">Select an Email Client</string>
+    <string name="email_subject">Hear2Read feedback</string>
+    <string name="hint_text">Paste text here or press reset to load default text (max 1000 characters)</string>
+    <string name="hint_text_email">Enter feedback …</string>
+    <string name="clear_button">Clear text</string>
+    <string name="reset_button">Reset text</string>
+    <string name="clear_reset_button">Reset text</string>
+    <string name="previous_button">Previous sentence</string>
+    <string name="stop_button">Stop playback</string>
+    <string name="next_button">Next sentence</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="add_voices">Add Voices</string>
+    <string name="no_voices_background">NO INDIC VOICE INSTALLED!\nPlease use the \"Add Voices\" button below</string>
+    <string name="no_voices_dialog">No Hear2Read Indic voice installed!\nAdd Indic Voice?</string>
+    <string name="no_downloads">No more voices available!</string>
+    <string name="general_copyright">© (1999–2018) Carnegie Mellon University \n© (2016–2020) Hear2Read</string>
+    <string name="text_send_email">Send Email</string>
+    <string name="hint_email">Type feedback here …</string>
+    <string name="message_email">We welcome all informative, useful comments, suggestions and questions about Hear2Read Apps.
+        \nPlease do not attach any images or .pdf files.</string>
+    <string name="updating_voices">Updating voices …</string>
+    <string name="copying_voices">Copying voices …</string>
+    <string name="text_restart_alert">Hear2Read is not responding. It will restart and continue in a few seconds.</string>
+    <string name="okay_button">OK</string>
+    <string name="okay_hidden">Okay</string>
+    <string name="switch_other_eng">Use external TTS for English</string>
+    <string name="summary_other_eng">Keep on to read English with another TTS engine (recommended)</string>
+    <string name="settings">Settings</string>
+    <string name="switch_volume_normalize">English volume normalize</string>
+    <string name="summary_volume_normalize">Keep on to normalize volume of both English and Indic TTS (recommended)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_email">Send e mail</string>
+    <string name="select_eng_voice">Select English voice</string>
+    <string name="android_tts_settings">Android TTS Settings</string>
+    <string name="dont_show_again">Don\'t show this again</string>
+    <string name="main_popup">
+        Hear2Read TTS Engine provides a background service to convert text to speech. It is not a
+        screen or book reader. It provides a demo screen that reads few short sentences as an audio
+        demonstration. The demo screen is not a screen reading App.
+        \n\n
+        It can be used by any TTS-enabled App to "Read" by listening. The most common Apps that use
+        TTS engine are Screen Reading Apps or eBook readers. eBook readers allow navigation within
+        a book by chapter, page number, or bookmark, and word searches.
+        \n\n
+        More information, with examples:
+        \n\n
+        https://hear2read.org/solution-android.php</string>
+    <string name="demo_popup">
+        Text size exceeded, text will be truncated.
+        \n\n
+        This is a demo screen, to get the full functionality of the app, use a screen/document
+        reader, as outlined below:
+        \n\n
+        https://hear2read.org/solution-android.php</string>
+    <string name="paste_button">Paste copied text</string>
+</resources>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<resources>--><!--<string name="app_name">Flite TTS Engine</string>--><!--<string name="eng_sample">This is a sample English sentence for Flite synthesizer.</string>--><!--<string name="indic_sample">हिंदी भारत की राष्ट्रभाषा है।  मराठी ही महाराष्ट्र राज्याची अधिकृत भाषा आहे.</string>--><!--<string name="flite_manager">Flite</string>--><!--<string name="flite_voice_manager">Flite TTS Voice Management</string>--><!--<string name="voice_list_update">Download Voice List</string>-->
+
+    <!--</resources>-->

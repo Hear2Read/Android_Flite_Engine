@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_height">78sp</dimen>
+    <dimen name="list_icon">54sp</dimen>
+    <dimen name="list_language">36sp</dimen>
+    <dimen name="list_variant">16sp</dimen>
+    <dimen name="warning_text">18sp</dimen>
+    <dimen name="button_text">27sp</dimen>
+</resources>

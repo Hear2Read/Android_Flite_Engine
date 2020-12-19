@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_popup_child"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@color/colorPrimary"
+        >
+        <EditText
+            android:id="@+id/text_feedback_content"
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:maxLength="1024"
+            android:hint="@string/hint_email"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <Button
+            android:id="@+id/button_send_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/background_image_button_border"
+            android:gravity="center|bottom"
+            android:padding="16dp"
+            android:text="@string/text_send_email"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/warning_text"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

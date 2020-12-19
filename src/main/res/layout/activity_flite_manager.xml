@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_flite_manager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.hear2read.indic.ui.manager.FliteManagerActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_languages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout_toolbar"
+        android:layout_above="@+id/separator4"
+        android:scrollbars="vertical"
+        android:gravity="center">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/text_background_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_toolbar"
+        android:layout_above="@+id/separator4"
+        android:visibility="invisible"
+        android:text="@string/no_voices_background"
+        android:textSize="@dimen/warning_text"
+        android:textAlignment="center"
+        />
+
+    <View android:layout_height="1dp"
+          android:layout_width="fill_parent"
+          android:background="#90909090"
+          android:paddingTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginStart="8dp"
+          android:id="@+id/separator4"
+          android:layout_above="@id/separator3"/>
+
+    <View android:layout_height="1dp"
+          android:layout_width="fill_parent"
+          android:background="#90909090"
+          android:paddingTop="4dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginStart="8dp"
+          android:id="@+id/separator3"
+          android:layout_above="@id/button_add_voice"/>
+
+    <Button
+        android:id="@+id/button_add_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_voices"
+        android:textAllCaps="true"
+        android:textSize="@dimen/button_text"
+        android:textStyle="bold"
+        android:layout_above="@id/separator2"
+        android:background="?android:attr/selectableItemBackground"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:contentDescription="@string/add_voices"/>
+
+    <TextView
+        android:id="@+id/text_copyright_general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/general_copyright"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"/>
+
+    <View android:layout_height="1dp"
+          android:layout_width="fill_parent"
+          android:background="#90909090"
+          android:paddingTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginStart="8dp"
+          android:id="@+id/separator2"
+          android:layout_above="@id/separator"/>
+
+    <View android:layout_height="1dp"
+          android:layout_width="fill_parent"
+          android:background="#90909090"
+          android:paddingTop="4dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginStart="8dp"
+          android:id="@+id/separator"
+          android:layout_above="@id/text_copyright_general"/>
+
+
+</RelativeLayout>

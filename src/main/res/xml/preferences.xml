@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:asp="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:key="list_eng_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--
+    <PreferenceCategory
+        android:title="English Voice Parameters"
+        android:key="eng_voice_params">
+-->
+
+        <SeekBarPreference
+            android:key="eng_rate_preference"
+            android:layout="@layout/seekbar_pref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="100"/>
+
+        <SeekBarPreference
+            android:key="eng_volume_preference"
+            android:layout="@layout/seekbar_pref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="100"/>
+
+        <Preference
+            android:key="eng_test_voice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Preference
+            android:key="eng_restore_default_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Preference
+            android:key="eng_restore_default_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        />
+<!--
+    </PreferenceCategory>
+-->
+
+</android.support.v7.preference.PreferenceScreen>

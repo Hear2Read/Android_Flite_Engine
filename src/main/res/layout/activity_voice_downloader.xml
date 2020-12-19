@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.hear2read.indic.ui.downloader.VoiceDownloadActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_voice_download"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_toolbar"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:gravity="center">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/text_warning_no_downloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_toolbar"
+        android:visibility="invisible"
+        android:text="@string/no_downloads"
+        android:textSize="@dimen/warning_text"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>

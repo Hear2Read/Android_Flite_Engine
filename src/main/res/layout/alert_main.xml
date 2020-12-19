@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/alert_text_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:autoLink="web"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:text="@string/main_popup"/>
+
+    <View android:layout_height="1dp"
+          android:layout_width="fill_parent"
+          android:background="#90909090"
+          android:paddingTop="8dp"
+          android:paddingBottom="8dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginStart="8dp"
+          android:id="@+id/separatorAlert"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="8dp"
+        android:text="@string/dont_show_again"/>
+
+</LinearLayout>

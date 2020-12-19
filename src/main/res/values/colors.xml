@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="colorPrimary">#FFFFFF</color>
+     <color name="colorPrimaryDark">#606060</color>
+     <color name="colorAccent">#FF4081</color>
+
+     <color name="actBackgr">#03548B</color>
+
+     <color name="gray">#999999</color>
+     <color name="chrome">#FFC040</color>
+     <color name="themeblue">#40C0FF</color>
+     <color name="highlightblue">#9fdfff</color>
+     <color name="foregroundblue">#00eeff</color>
+     <color name="foregroundred">#ff7043</color>
+     <color name="highlightred">#9d70431c</color>
+</resources>

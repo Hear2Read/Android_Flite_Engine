@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/layout_demo_activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="org.hear2read.indic.ui.TTSDemoActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbar_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:layout_below="@id/toolbar_holder"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/text_demo"
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:maxLength="1024"
+            android:hint="@string/hint_text"
+            android:focusable="true"
+
+
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/button_stop"
+                android:contentDescription="@string/stop_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_image_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_action_stop"
+                android:tint="#40C0FF"/>
+
+            <ImageButton
+                android:id="@+id/button_previous"
+                android:contentDescription="@string/previous_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_image_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_action_previous"
+                android:tint="#40C0FF" />
+
+            <ImageButton
+                android:id="@+id/button_play_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_image_button"
+                android:contentDescription="@string/play_pause_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_action_play"
+                android:tint="#40C0FF" />
+
+            <ImageButton
+                android:id="@+id/button_next"
+                android:contentDescription="@string/next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_image_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_action_next"
+                android:tint="#40C0FF" />
+
+            <ImageButton
+                android:id="@+id/button_clear_reset"
+                android:contentDescription="@string/clear_reset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_image_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_action_clear"
+                android:tint="#40C0FF" />
+
+            <ImageButton
+                android:id="@+id/button_paste"
+                android:contentDescription="@string/paste_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_image_button"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_action_paste"
+                android:tint="#40C0FF" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/test_copyright_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</RelativeLayout>

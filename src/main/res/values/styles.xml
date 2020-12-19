@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/actBackgr</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <!-- Support library compatibility -->
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <!-- Style to replace actionbar overflow icon. set item 'android:actionOverflowButtonStyle' in AppTheme -->
+    <style name="MyActionButtonOverflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_menubmp</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">"@string/menu"</item>
+    </style>
+
+    <style name="dashboard">
+        <item name="android:numColumns">2</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
