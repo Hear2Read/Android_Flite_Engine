@@ -60,7 +60,7 @@
     <string name="email_button">Email Feedback</string>
     <string name="email_client">Select an Email Client</string>
     <string name="email_subject">Hear2Read feedback</string>
-    <string name="hint_text">Paste text here or press reset to load default text (max 1000 characters)</string>
+    <string name="hint_text">Paste or type text here else press reset to load default text (max 1000 characters)</string>
     <string name="hint_text_email">Enter feedback …</string>
     <string name="clear_button">Clear text</string>
     <string name="reset_button">Reset text</string>
@@ -73,7 +73,7 @@
     <string name="no_voices_background">NO INDIC VOICE INSTALLED!\nPlease use the \"Add Voices\" button below</string>
     <string name="no_voices_dialog">No Hear2Read Indic voice installed!\nAdd Indic Voice?</string>
     <string name="no_downloads">No more voices available!</string>
-    <string name="general_copyright">© (1999–2018) Carnegie Mellon University \n© (2016–2020) Hear2Read</string>
+    <string name="general_copyright">© (1999–2018) Carnegie Mellon University \n© (2016–2021) Hear2Read</string>
     <string name="text_send_email">Send Email</string>
     <string name="hint_email">Type feedback here …</string>
     <string name="message_email">We welcome all informative, useful comments, suggestions and questions about Hear2Read Apps.
