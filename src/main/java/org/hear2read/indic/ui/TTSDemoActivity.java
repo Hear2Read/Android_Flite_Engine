@@ -311,49 +311,55 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
         mUserText.setOnClickListener(null);
         mUserText.setOnKeyListener(null);
 
+
+
+
+
+
         //12172020 sushanta
         // as per shyam email https://stackoverflow.com/questions/10627137/how-can-i-know-when-an-edittext-loses-focus/10627231#10627231
         // added : setOnFocusChangeListener
 
-        mUserText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-             public void onFocusChange(View v, boolean hasFocus) {
-                if (!hasFocus) {
-
-                    EditText textBox = (EditText)v;
-                    String text = textBox.getText().toString();
-
-                    // code to execute when EditText loses focus
-                    // sushanta String text = s.toString();
-                    isCleared = text.isEmpty();
-                    toggleClearReset();
-
-                    if (!(Objects.equals(mLanguageText, text))) {
-                        //Log.v(LOG_TAG, "Original Text in textbox: " + mLanguageText);
-                        //Log.v(LOG_TAG, "Change in textbox to: " + text + ", " + text.isEmpty());
-
-                        if (text.length() >= 1024) {
-                            AlertDialog.Builder builder =
-                                    new AlertDialog.Builder(TTSDemoActivity.this);
-                            View alertTextLayout = getLayoutInflater().inflate(R.layout.alert_demo,
-                                    null);
-                        /*TextView demoAlertTextView = alertTextLayout.findViewById(
-                                R.id.alert_text_demo);*/
-                            builder.setView(alertTextLayout);
-                            builder.setTitle("WARNING");
-                            //builder.setMessage(R.string.demo_popup);
-                            builder.setPositiveButton(android.R.string.ok, null);
-                            builder.show();
-                        }
-
-                        mLanguageText = text;
-                        splitText();
-                        stopText(); //add comment sushanta
-                    }
-
-                }
-            }
-        });
+//        mUserText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+//            @Override
+//             public void onFocusChange(View v, boolean hasFocus) {
+//                if (!hasFocus) {
+//
+//                    EditText textBox = (EditText)v;
+//                    String text = textBox.getText().toString();
+//
+//                    // code to execute when EditText loses focus
+//                    //String text = v.toString();
+//
+//                    isCleared = text.isEmpty();
+//                    toggleClearReset();
+//
+//                    if (!(Objects.equals(mLanguageText, text))) {
+//                        //Log.v(LOG_TAG, "Original Text in textbox: " + mLanguageText);
+//                        //Log.v(LOG_TAG, "Change in textbox to: " + text + ", " + text.isEmpty());
+//
+//                        if (text.length() >= 1024) {
+//                            AlertDialog.Builder builder =
+//                                    new AlertDialog.Builder(TTSDemoActivity.this);
+//                            View alertTextLayout = getLayoutInflater().inflate(R.layout.alert_demo,
+//                                    null);
+//                        /*TextView demoAlertTextView = alertTextLayout.findViewById(
+//                                R.id.alert_text_demo);*/
+//                            builder.setView(alertTextLayout);
+//                            builder.setTitle("WARNING");
+//                            //builder.setMessage(R.string.demo_popup);
+//                            builder.setPositiveButton(android.R.string.ok, null);
+//                            builder.show();
+//                        }
+//
+//                        mLanguageText = text;
+//                        splitText();
+//                        stopText(); //add comment sushanta
+//                    }
+//
+//                }
+//            }
+//        });
 
 
 
@@ -363,55 +369,58 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 
         /* Listens to changes in the EditText box to update variables - shyam */
 
-//        mUserText.addTextChangedListener(new TextWatcher() {
-//            @Override
-//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-//                Log.d(LOG_TAG, "beforetextchanged:\n" + "\n" + start +
-//                        ", " + count + ", " + after);
-//
-//
-//            }
-//
-//            @Override
-//            public void onTextChanged(CharSequence s, int start, int before, int count) {
-//
-//            }
-//
-//            @Override
-//            public void afterTextChanged(Editable s) {
-//
-//                String text = s.toString();
-//
-//                isCleared = text.isEmpty();
-//                toggleClearReset();
-//
-//                if (!(Objects.equals(mLanguageText, text))) {
-//                    //Log.v(LOG_TAG, "Original Text in textbox: " + mLanguageText);
-//                    //Log.v(LOG_TAG, "Change in textbox to: " + text + ", " + text.isEmpty());
-//
-//                    if (text.length() >= 1024) {
-//                        AlertDialog.Builder builder =
-//                                new AlertDialog.Builder(TTSDemoActivity.this);
-//                        View alertTextLayout = getLayoutInflater().inflate(R.layout.alert_demo,
-//                                null);
-//                        /*TextView demoAlertTextView = alertTextLayout.findViewById(
-//                                R.id.alert_text_demo);*/
-//                        builder.setView(alertTextLayout);
-//                        builder.setTitle("WARNING");
-//                        //builder.setMessage(R.string.demo_popup);
-//                        builder.setPositiveButton(android.R.string.ok, null);
-//                        builder.show();
-//                    }
-//
-//                    mLanguageText = text;
-//                    splitText();
-//                    stopText(); //add comment sushanta
-//                }
-//
-//            }
-//        });
+        mUserText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                Log.d(LOG_TAG, "beforetextchanged:\n" + "\n" + start +
+                        ", " + count + ", " + after);
 
-        mPlayPauseButton.setOnClickListener(this);
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+                String text = s.toString();
+
+                isCleared = text.isEmpty();
+                toggleClearReset();
+
+                if (!(Objects.equals(mLanguageText, text))) {
+                    //Log.v(LOG_TAG, "Original Text in textbox: " + mLanguageText);
+                    //Log.v(LOG_TAG, "Change in textbox to: " + text + ", " + text.isEmpty());
+
+                    if (text.length() >= 1024) {
+                        AlertDialog.Builder builder =
+                                new AlertDialog.Builder(TTSDemoActivity.this);
+                        View alertTextLayout = getLayoutInflater().inflate(R.layout.alert_demo,
+                                null);
+                        /*TextView demoAlertTextView = alertTextLayout.findViewById(
+                                R.id.alert_text_demo);*/
+                        builder.setView(alertTextLayout);
+                        builder.setTitle("WARNING");
+                        //builder.setMessage(R.string.demo_popup);
+                        builder.setPositiveButton(android.R.string.ok, null);
+                        builder.show();
+                    }
+
+                    mLanguageText = text;
+                    splitText();
+                    //stopText(); //add comment sushanta
+                }
+
+            }
+        });
+
+
+       mPlayPauseButton.setOnClickListener(this);
+
+
 
         stopButton.setOnClickListener(new OnClickListener() {
             @Override

@@ -111,7 +111,7 @@ public class FliteInfoActivity extends AppCompatActivity {
         };
         final String[] Data = new String[] {
                 "© (1999–2018) Carnegie Mellon University" +
-                        "\n© (2016–2020) Hear2Read",
+                        "\n© (2016–2021) Hear2Read",
                 "www.cmuflite.org" +
                         "\nwww.hear2read.org",
                 android.os.Build.VERSION.RELEASE,
