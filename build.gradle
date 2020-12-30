@@ -57,6 +57,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             ext.enableCrashlytics = true
             multiDexKeepProguard file('proguard-rules.pro')
+            
+            //added 30122020  handles warning uploading
+            ndk {
+                debugSymbolLevel 'SYMBOL_TABLE'
+                debugSymbolLevel 'FULL'
+            }
         }
         debug {
             versionNameSuffix "-dev"
