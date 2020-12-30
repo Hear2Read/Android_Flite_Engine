@@ -1,5 +1,0 @@
-[arm64-v8a] Compile++      : ttsflite <= org_hear2read_indic_service.cc
-[arm64-v8a] Compile++      : ttsflite <= org_hear2read_indic_engine.cc
-[arm64-v8a] Compile++      : ttsflite <= org_hear2read_indic_voices.cc
-[arm64-v8a] Compile++      : ttsflite <= org_hear2read_string.cc
-[arm64-v8a] SharedLibrary  : libttsflite.so
