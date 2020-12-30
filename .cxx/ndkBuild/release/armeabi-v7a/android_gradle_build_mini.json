@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/sushant/Android/Sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/lib APP_PLATFORM\u003dandroid-21 NDK_APPLICATION_MK\u003dsrc/main/jni/Application.mk clean"
+  ],
+  "buildTargetsCommand": "/home/sushant/Android/Sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/lib APP_PLATFORM\u003dandroid-21 NDK_APPLICATION_MK\u003dsrc/main/jni/Application.mk {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ttsflite-release-armeabi-v7a": {
+      "artifactName": "ttsflite",
+      "buildCommand": "/home/sushant/Android/Sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/lib APP_PLATFORM\u003dandroid-21 NDK_APPLICATION_MK\u003dsrc/main/jni/Application.mk /home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libttsflite.so",
+      "abi": "armeabi-v7a",
+      "output": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libttsflite.so",
+      "runtimeFiles": []
+    }
+  }
+}

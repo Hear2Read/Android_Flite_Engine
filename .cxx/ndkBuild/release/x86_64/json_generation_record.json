@@ -1,0 +1,92 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 23 min SDK version: x86_64",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/sushant/workspace/hear2read/Engine_Release_work/Android/.cxx/ndkBuild/release/x86_64/android_gradle_build.json due to:",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/sushant/workspace/hear2read/Engine_Release_work/Android/.cxx/ndkBuild/release/x86_64/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/sushant/workspace/hear2read/Engine_Release_work/Android/.cxx/ndkBuild/release/x86_64/build_command.txt, will remove stale json folder",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/sushant/workspace/hear2read/Engine_Release_work/Android/.cxx/ndkBuild/release/x86_64\u0027",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/sushant/workspace/hear2read/Engine_Release_work/Android/.cxx/ndkBuild/release/x86_64\u0027",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /home/sushant/Android/Sdk/ndk/21.1.6352462/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-23\nNDK_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/lib\nAPP_PLATFORM\u003dandroid-21\nNDK_APPLICATION_MK\u003dsrc/main/jni/Application.mk\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /home/sushant/Android/Sdk/ndk/21.1.6352462/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-23\nNDK_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003d/home/sushant/workspace/hear2read/Engine_Release_work/Android/build/intermediates/ndkBuild/release/lib\nAPP_PLATFORM\u003dandroid-21\nNDK_APPLICATION_MK\u003dsrc/main/jni/Application.mk\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing ndkBuild",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/sushant/workspace/hear2read/Engine_Release_work/Android/.cxx/ndkBuild/release/x86_64/build_output.txt",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "found application make file /home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Application.mk",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/sushant/workspace/hear2read/Engine_Release_work/Android/.cxx/ndkBuild/release/x86_64/build_command.txt",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/Android.mk",
+    "tag": "release|x86_64"
+  }
+]

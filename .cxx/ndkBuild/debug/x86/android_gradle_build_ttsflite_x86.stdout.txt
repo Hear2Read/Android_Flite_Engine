@@ -1,0 +1,5 @@
+[x86] Compile++      : ttsflite <= org_hear2read_indic_service.cc
+[x86] Compile++      : ttsflite <= org_hear2read_indic_engine.cc
+[x86] Compile++      : ttsflite <= org_hear2read_indic_voices.cc
+[x86] Compile++      : ttsflite <= org_hear2read_string.cc
+[x86] SharedLibrary  : libttsflite.so

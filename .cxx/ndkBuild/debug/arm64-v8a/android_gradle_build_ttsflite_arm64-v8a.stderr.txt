@@ -1,0 +1,82 @@
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:72:27: warning: if statement has empty body [-Wempty-body]
+        DEBUG_LOG_FUNCTION;
+                          ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:72:27: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:82:27: warning: if statement has empty body [-Wempty-body]
+        DEBUG_LOG_FUNCTION;
+                          ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:82:27: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:99:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:99:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:131:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:131:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:146:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:146:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:158:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:158:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:179:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:179:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:200:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:200:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:228:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:228:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:257:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:257:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:277:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:277:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:302:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:302:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:320:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:320:23: note: put the semicolon on a separate line to silence this warning
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:328:23: warning: if statement has empty body [-Wempty-body]
+    DEBUG_LOG_FUNCTION;
+                      ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_service.cc:328:23: note: put the semicolon on a separate line to silence this warning
+14 warnings generated.
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_voices.cc:122:24: warning: 'readdir_r' is deprecated: readdir_r is deprecated; use readdir instead [-Wdeprecated-declarations]
+    for (return_code = readdir_r(dir, entry, &result); //TODO: readdir deprecated
+                       ^
+/home/sushant/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/dirent.h:87:92: note: 'readdir_r' has been explicitly marked deprecated here
+int readdir_r(DIR* __dir, struct dirent* __entry, struct dirent** __buffer) __attribute__((__deprecated__("readdir_r is deprecated; use readdir instead")));
+                                                                                           ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_voices.cc:124:24: warning: 'readdir_r' is deprecated: readdir_r is deprecated; use readdir instead [-Wdeprecated-declarations]
+         return_code = readdir_r(dir, entry, &result)) {
+                       ^
+/home/sushant/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/dirent.h:87:92: note: 'readdir_r' has been explicitly marked deprecated here
+int readdir_r(DIR* __dir, struct dirent* __entry, struct dirent** __buffer) __attribute__((__deprecated__("readdir_r is deprecated; use readdir instead")));
+                                                                                           ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_voices.cc:155:24: warning: 'readdir_r' is deprecated: readdir_r is deprecated; use readdir instead [-Wdeprecated-declarations]
+    for (return_code = readdir_r(dir, entry, &result);
+                       ^
+/home/sushant/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/dirent.h:87:92: note: 'readdir_r' has been explicitly marked deprecated here
+int readdir_r(DIR* __dir, struct dirent* __entry, struct dirent** __buffer) __attribute__((__deprecated__("readdir_r is deprecated; use readdir instead")));
+                                                                                           ^
+/home/sushant/workspace/hear2read/Engine_Release_work/Android/src/main/jni/org_hear2read_indic_voices.cc:157:24: warning: 'readdir_r' is deprecated: readdir_r is deprecated; use readdir instead [-Wdeprecated-declarations]
+         return_code = readdir_r(dir, entry, &result)) {
+                       ^
+/home/sushant/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/dirent.h:87:92: note: 'readdir_r' has been explicitly marked deprecated here
+int readdir_r(DIR* __dir, struct dirent* __entry, struct dirent** __buffer) __attribute__((__deprecated__("readdir_r is deprecated; use readdir instead")));
+                                                                                           ^
+4 warnings generated.
