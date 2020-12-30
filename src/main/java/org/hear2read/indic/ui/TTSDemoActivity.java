@@ -311,10 +311,7 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
         mUserText.setOnClickListener(null);
         mUserText.setOnKeyListener(null);
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 944867b7b7115de9e6b52338595004559acbb4f1
 
 
 
@@ -323,18 +320,10 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
         // as per shyam email https://stackoverflow.com/questions/10627137/how-can-i-know-when-an-edittext-loses-focus/10627231#10627231
         // added : setOnFocusChangeListener
 
-<<<<<<< HEAD
-        //12172020 sushanta
-        // as per shyam email https://stackoverflow.com/questions/10627137/how-can-i-know-when-an-edittext-loses-focus/10627231#10627231
-        // added : setOnFocusChangeListener
-
-=======
->>>>>>> 944867b7b7115de9e6b52338595004559acbb4f1
 //        mUserText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
 //            @Override
 //             public void onFocusChange(View v, boolean hasFocus) {
 //                if (!hasFocus) {
-<<<<<<< HEAD
 //
 //                    EditText textBox = (EditText)v;
 //                    String text = textBox.getText().toString();
@@ -349,22 +338,6 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 //                        //Log.v(LOG_TAG, "Original Text in textbox: " + mLanguageText);
 //                        //Log.v(LOG_TAG, "Change in textbox to: " + text + ", " + text.isEmpty());
 //
-=======
-//
-//                    EditText textBox = (EditText)v;
-//                    String text = textBox.getText().toString();
-//
-//                    // code to execute when EditText loses focus
-//                    //String text = v.toString();
-//
-//                    isCleared = text.isEmpty();
-//                    toggleClearReset();
-//
-//                    if (!(Objects.equals(mLanguageText, text))) {
-//                        //Log.v(LOG_TAG, "Original Text in textbox: " + mLanguageText);
-//                        //Log.v(LOG_TAG, "Change in textbox to: " + text + ", " + text.isEmpty());
-//
->>>>>>> 944867b7b7115de9e6b52338595004559acbb4f1
 //                        if (text.length() >= 1024) {
 //                            AlertDialog.Builder builder =
 //                                    new AlertDialog.Builder(TTSDemoActivity.this);
@@ -381,11 +354,7 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 //
 //                        mLanguageText = text;
 //                        splitText();
-<<<<<<< HEAD
-//                        stopText(); //add comment sushanta
-=======
 //                        stopText(); //add comment 
->>>>>>> 944867b7b7115de9e6b52338595004559acbb4f1
 //                    }
 //
 //                }
@@ -442,11 +411,7 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 
                     mLanguageText = text;
                     splitText();
-<<<<<<< HEAD
-                    //stopText(); //add comment sushanta
-=======
-                    //stopText(); //add comment 26122020
->>>>>>> 944867b7b7115de9e6b52338595004559acbb4f1
+                    //stopText(); //add comment
                 }
 
             }
