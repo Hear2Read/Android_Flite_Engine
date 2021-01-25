@@ -316,7 +316,7 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 
 
 
-        //12172020 
+        //12172020 sushanta
         // as per shyam email https://stackoverflow.com/questions/10627137/how-can-i-know-when-an-edittext-loses-focus/10627231#10627231
         // added : setOnFocusChangeListener
 
@@ -354,7 +354,7 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 //
 //                        mLanguageText = text;
 //                        splitText();
-//                        stopText(); //add comment 
+//                        stopText(); //add comment sushanta
 //                    }
 //
 //                }
@@ -411,7 +411,7 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 
                     mLanguageText = text;
                     splitText();
-                    //stopText(); //add comment
+                    //stopText(); //add comment sushanta
                 }
 
             }

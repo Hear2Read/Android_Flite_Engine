@@ -27,10 +27,12 @@ android {
         applicationId 'org.hear2read.indic'
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 29
+        versionCode 30
         versionName '2.3'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+
+
 
         externalNativeBuild {
             ndkBuild {
@@ -57,8 +59,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             ext.enableCrashlytics = true
             multiDexKeepProguard file('proguard-rules.pro')
-            
-            //added 30122020  handles warning uploading
+
+            //added 30122020  handles warning after uploading
             ndk {
                 debugSymbolLevel 'SYMBOL_TABLE'
                 debugSymbolLevel 'FULL'
