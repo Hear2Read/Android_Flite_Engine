@@ -1,0 +1,797 @@
+    1  sha256sum Anaconda3-2020.07-Linux-x86_64.sh 
+    2  bash Anaconda3-2020.07-Linux-x86_64.sh 
+    3  cd ../
+    4  chmod -R 777 installation/
+    5  bash installation/Anaconda3-2020.07-Linux-x86_64.sh 
+    6  python
+    7  which python
+    8  jupyter notebook
+    9  conda install jupyer-notebook
+   10  conda list
+   11  conda
+   12  conda install anaconda-clean
+   13  jupyter notebook
+   14  rm -rf ~/
+   15  locate anaconda
+   16  conda -version
+   17  conda --version
+   18  anaconda --version
+   19  conda uninstall
+   20  where python
+   21  which python
+   22  python
+   23  conda list
+   24  python
+   25  annaconda-navigator
+   26  sudo gedit .bashrc
+   27  python
+   28  conda install pytorch
+   29  python
+   30  jupyter notebook
+   31  grep sushant
+   32  history > 26092020
+   33  cd ~/
+   34  pwd
+   35  cd Downloads/
+   36  pwd
+   37  cd ~/
+   38  pwd
+   39  python asm_phone2sampa.py 
+   40  python asm_phone2sampa.py Assamese_Dictionary.txt 
+   41  python asm_phone2sampa.py
+   42  python asm_phone2sampa.py Assamese_Dictionary.txt 
+   43  python asm_phone2sampa.py Assamese_Dictionary.txt > test.txt
+   44  python asm_phone2sampa.py Assamese_Dictionary.txt 
+   45  vi .ssh/config 
+   46  ssh -nNT -L 37841:127.0.0.1:37841 panisush@turing.dhcp.egr.msu.edu
+   47  ssh -nNT -L 37841:127.0.0.1:37841 panisush@turing.egr.msu.edu
+   48  ssh -nNT -L 49507:127.0.0.1:49507 sushanta@avicenna.dhcp.egr.msu.edu
+   49  ssh sushanta@avicenna.dhcp.egr.msu.edu
+   50  ssh sushant@avicenna.dhcp.egr.msu.edu
+   51  ping avicenna.dhcp.egr.msu.edu
+   52  ssh sushanta@avicenna.dhcp.egr.msu.edu
+   53  ssh sushanta@avicenna
+   54  ssh -nNT -L 49507:127.0.0.1:49507 sushanta@avicenna
+   55  lsof -ti:49507 | xargs kill -9
+   56  ssh -L 49507:127.0.0.1:49507 -C -N sushanta@avicenna
+   57  lsof -ti:49507 | xargs kill -9
+   58  ssh -L 49507:127.0.0.1:49507 -C -N sushanta@avicenna
+   59  lsof -ti:49507 | xargs kill -9
+   60  ssh -L 49507:127.0.0.1:49507 -C -N sushanta@avicenna
+   61  cd ../
+   62  ls
+   63  $tar -xvzf speech_tools-2.5.0-release.tar.gz 
+   64  sudo apt-get install tar
+   65  $tar -xvzf speech_tools-2.5.0-release.tar.gz 
+   66  tar -xvzf speech_tools-2.5.0-release.tar.gz 
+   67  cd speech_tools/
+   68  ./configure 
+   69  make info
+   70  make
+   71  sudo ln -s /lib/libncurses.so.5 /lib/libcurses.so 
+   72  apt-get install libncurses5-dev
+   73  cd ../
+   74  sudo apt-get install libncurses5-dev
+   75  cd speech_tools/
+   76  ./configure 
+   77  make info
+   78  make
+   79  cd ../
+   80  festival
+   81  tar -xvzf festival-2.5.0-release.tar.gz 
+   82  cd festival/
+   83  ./configure 
+   84  make info
+   85  make
+   86  festival
+   87  cd ../
+   88  cd speech_tools/
+   89  pwd
+   90  export ESTDIR=/home/sushant/installation/tts/speech_tools
+   91  echo $ESTDIR
+   92  cd ../
+   93  cd festival/
+   94  export FESTDIR=/home/sushant/installation/tts/festival
+   95  cd ../
+   96  festival
+   97  cd festival/
+   98  cd bin/
+   99  ls
+  100  ./festival
+  101  cd ../
+  102  tar -xvzf festlex_CMU.tar.gz 
+  103  tar -xvzf festlex_OALD.tar.gz 
+  104  tar -xvzf festlex_POSLEX.tar.gz 
+  105  festival
+  106  festival/bin/festival
+  107  echo $FESTDIR 
+  108  tar -xvzf festvox_kallpcl6k.tar.gz
+  109  ls
+  110  cd ../
+  111  ls
+  112  cd tts/
+  113  ls
+  114  tar -xvzf festvox_kallpc16k.tar.gz 
+  115  festival/bin/festival
+  116  cd ../
+  117  cd tts/
+  118  festival/bin/festival
+  119  sudo gedit /home/sushant/.festivalrc
+  120  festival/bin/festival
+  121  ls
+  122  git clone https://github.com/festvox/festvox
+  123  cd festvox/
+  124  ./configure 
+  125  make
+  126  cd ../
+  127  ls
+  128  cd flite/
+  129  make
+  130  ./configure
+  131  make
+  132  sudo apt-get install clang
+  133  festival --tts "sushanta"
+  134  cd /home/sushant/installation/tts/
+  135  festival/bin/festival --tts "susha"
+  136  gedit test.txt
+  137  festival/bin/festival --tts test.txt 
+  138  python tts_test.py 
+  139  ssh panisush@turing
+  140  ssh -L 49507:127.0.0.1:49507 -C -N sushanta@avicenna
+  141  lsof -ti:49507 | xargs kill -9
+  142  ssh -L 49507:127.0.0.1:49507 -C -N sushanta@avicenna
+  143  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  144  sudo apt-get update
+  145  top
+  146  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  147  perl test.pl 
+  148  perl test.pl words.txt 
+  149  pwd
+  150  perl word_count_dir.pl 
+  151  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  152  cd /home/sushant/installation/tts/
+  153  ls
+  154  festival/bin/festival
+  155  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  156  top
+  157  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  158  python asm_phone2sampa.py asm_test.txt 
+  159  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  160  python asm_phone2sampa.py asm_test.txt 
+  161  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  162  pwd
+  163  # Add the standalone toolchain to the search path.
+  164  export PATH=$PATH:/home/sushant/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin
+  165  # Tell configure what tools to use.
+  166  target_host=aarch64-linux-android21
+  167  export AR=$target_host-ar
+  168  export AS=$target_host-clang
+  169  export CC=$target_host-clang
+  170  export CXX=$target_host-clang++
+  171  export LD=$target_host-ld
+  172  export STRIP=$target_host-strip
+  173  # Tell configure what flags Android requires.
+  174  export CFLAGS="-fPIE -fPIC"
+  175  export LDFLAGS="-pie"
+  176  cd ..
+  177  cd 
+  178  cd workspace/
+  179  ls
+  180  cd hear2read/
+  181  ls
+  182  cd flite_android_64bit/
+  183  ls
+  184  cd flite/
+  185  chmod u+x ./configure 
+  186  ./configure
+  187  ./configure --with-langvox=android --target=armv8-android
+  188  sudo apt install clang
+  189  sudo apt-get autoremove clang
+  190  clang
+  191  apt list
+  192  ruby
+  193  echo $SHELL
+  194  ssh panisush@turing
+  195  pwd
+  196  cd festival/
+  197  ls
+  198  cd ../
+  199  ls -l
+  200  ls -al
+  201  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  202  vi modifed_dictionary.txt 
+  203  python asm_phone2sampa.py Assamese_Dictionary.txt 
+  204  make
+  205  sudo gedit /etc/bash.bashrc 
+  206  pwd
+  207  source    /etc/bash.bashrc
+  208  source /etc/bash.bashrc
+  209  source /etc/bash.bashrc 
+  210  sudo source /etc/bash.bashrc 
+  211  sudo
+  212  sudo su
+  213  cd installation/tts/festival/bin/
+  214  gestival
+  215  ls
+  216  festival 
+  217  cd ,,.
+  218  cd ../
+  219  festival/bin/festival
+  220  free -m
+  221  top
+  222  free -m
+  223  top
+  224  free -m
+  225  festival/
+  226  festival/bin/festival
+  227  sudo apt-get remove docker docker-engine docker.io containerd runc
+  228  sudo apt-get purge docker-ce docker-ce-cli containerd.io
+  229  udo rm -rf /var/lib/docker
+  230  sudo rm -rf /var/lib/docker
+  231  source /etc/bash.bashrc 
+  232  sudo source /etc/bash.bashrc 
+  233  source /etc/bash.bashrc 
+  234  dpkg -l | grep -i docker
+  235  sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli
+  236  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce  
+  237  sudo rm -rf /var/lib/docker /etc/docker
+  238  sudo rm /etc/apparmor.d/docker
+  239  sudo groupdel docker
+  240  sudo rm -rf /var/run/docker.sock
+  241  sudo snap remove docker
+  242  sudo snap remove --purge docker
+  243  sudo find / -name '*docker*'
+  244  snap remove docker
+  245  sudo apt-get purge docker-ce
+  246  sudo apt-get purge -y docker-engine docker docker.io docker-ce  
+  247  $ sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce  
+  248  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce  
+  249  sudo rm -rf /var/lib/docker /etc/docker
+  250  sudo rm /etc/apparmor.d/docker
+  251  sudo groupdel docker
+  252  rm -rf /var/run/docker.sock
+  253  sudo source /etc/bash.bashrc 
+  254  source /etc/bash.bashrc 
+  255  conda env list
+  256  source /etc/bash.bashrc 
+  257  sudo gedit ~/.bashrc
+  258  conda deacivate base
+  259  conda deactivate base
+  260  conda deactivate
+  261  sudo source /etc/bash.bashrc 
+  262  cd installation/
+  263  cd tts/
+  264  cd festival/
+  265  cd ../
+  266  festival/bin/festival
+  267  source /etc/bash.bashrc 
+  268  sudo apt-get purge docker-engine
+  269  sudo apt-get autoremove --purge docker-engine
+  270  rm -rf /var/lib/docker
+  271  sudo find -name '*docker*'
+  272  /var/lib/
+  273  ls
+  274  conda deactivate
+  275  which sh
+  276  conda install anaconda-clean
+  277  annaconda clean
+  278  annaconda-clean
+  279  conda activate base
+  280  annaconda-clean
+  281  python
+  282  conda deactivate
+  283  python
+  284  $HOME
+  285  source /etc/bash.bashrc 
+  286  sudo gedit /etc/bash.bashrc 
+  287  snap info docker
+  288  docker images -a
+  289  grep docker
+  290  sudo docker run hello-world
+  291  sudo rm -rf /var/lib/docker
+  292  find docker
+  293  find var
+  294  locate var
+  295  locate docker
+  296  cd /var/lib/dpkg/
+  297  ls
+  298  cd info/
+  299  ls
+  300  cd ../
+  301  locate docker
+  302  /etc/default/
+  303  ls
+  304  cd  /usr/share/man/man1/
+  305  ls
+  306  cd /usr/share/doc/
+  307  ls
+  308  sudo snap install docker 
+  309  conda
+  310  conda env
+  311  conda env list
+  312  sudo gedit /etc/bash.bashrc 
+  313  sudo gedit /etc/bash.bashrc 
+  314  export ESTDIR=/home/sushant/installation/tts/speech_tools 
+  315  export FESTDIR=/home/sushant/installation/tts/festival 
+  316  export FESTVOXDIR=/home/sushant/installation/tts/festvox
+  317  $ESTDIR/
+  318  $FESTDIR/
+  319  $FESTVOXDIR/
+  320  cd installation/tts
+  321  festival/
+  322  festival/bin/festival
+  323  ndk-build
+  324  $PATH 
+  325  export PATH=$PATH:/home/sushant/Android/Sdk/ndk/21.3.6528147
+  326  export PATH=$PATH:/home/sushant/Android/Sdk/ndk/21.3.6528147/ndk-build
+  327  $PATH
+  328  ndk-build 
+  329  ndk-build
+  330  $PATH
+  331  export PATH=$PATH:/home/sushant/Android/Sdk/ndk/21.3.6528147
+  332  export PATH=$PATH:/home/sushant/Android/Sdk/ndk/21.3.6528147/ndk-build
+  333  ndk-build 
+  334  pwd
+  335  ls -a
+  336  ls -l
+  337  pwd
+  338  cd toolchains/llvm/
+  339  cd prebuilt/linux-x86_64/
+  340  pwd
+  341  ls
+  342  cd /home/
+  343  cd sushant/
+  344  sudo apt-get install xournal
+  345  hstory
+  346  history
+  347  $ sudo apt install gdebi-core libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+  348  uname -a\
+  349  uname -a
+  350  uname
+  351  uname -l
+  352  uname -as
+  353  sudo apt install gdebi-core libxml2:x86_64 libcanberra-gtk-module:x86_64 gtk2-engines-murrine:x86_64 libatk-adaptor:x86_64
+  354  sudo apt install gdebi-core libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+  355  echo $
+  356  pwd
+  357  export FLITEDIR=/home/sushant/workspace/hear2read/trial/flite_android_64bit/flite
+  358  echo $FLITEDIR 
+  359  export ANDROID_NDK=/home/sushant/Android/Sdk/ndk/21.3.6528147
+  360  export NDK_TOOLCHAINS=/home/sushant/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin
+  361  ./configure --with-langvox=android --target=armeabiv7a-android make
+  362  make
+  363  ./configure --with-langvox=android --target=armeabiv7a-android
+  364  make
+  365  ./configure --with-langvox=android --target=armeabiv7a-android make
+  366  ./configure --with-langvox=android --target=armeabiv7a-android
+  367  make
+  368  ./configure --with-langvox=android --target=armv8-android make
+  369  ./configure --with-langvox=android --target=armv8-android
+  370  make
+  371  make clean
+  372  ./configure --with-langvox=android --target=armeabiv7a-android
+  373  make
+  374  ./configure --with-langvox=android --target=armeabiv7a-android
+  375  make clean
+  376  ./configure --with-langvox=android --target=armeabiv7a-android
+  377  make
+  378  ./configure --with-langvox=android --target=armv8-android
+  379  make clean
+  380  make
+  381  cd build/armeabiv7a-android/
+  382  cd lib/
+  383  ls
+  384  ls -l
+  385  clear
+  386  ls -l
+  387  cd ../../armv8-android/lib/
+  388  ls -l
+  389  history
+  390  cd ..
+  391  history..
+  392  cd ..
+  393  ls
+  394  export ANDROID_NDK=/home/sushant/Android/Sdk/ndk/21.3.6528147
+  395  export NDK_TOOLCHAINS=/home/sushant/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin
+  396  ./configure --with-langvox=android --target=x86_64-android
+  397  make clean
+  398  make
+  399  ./configure --with-langvox=android --target=x86-android
+  400  make clean
+  401  make
+  402  echo $NDK_TOOLCHAINS 
+  403  echo $ANDROID_NDK
+  404  export ANDROID_NDK=/home/sushant/Android/Sdk/ndk/21.3.6528147
+  405  echo $ANDROID_NDK
+  406  NDK_TOOLCHAINS=/home/sushant/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin
+  407  export NDK_TOOLCHAINS=/home/sushant/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin
+  408  echo $NDK_TOOLCHAINS 
+  409  export ANDROID_NDK=/home/sushant/Android/Sdk/ndk/21.3.6528147
+  410  export NDK_TOOLCHAINS=/home/sushant/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin
+  411  ls
+  412  grep tam
+  413  grep -R 'tam'
+  414  grep -R 'guj'
+  415  grep -R 'guj'> findtext
+  416  grep -R 'guj'> test_text
+  417  cd flit
+  418  cd flite/
+  419  grep -R 'Sanskrit'
+  420  grep -R 'Oriya'
+  421  grep -R 'Gujarati'
+  422  grep -R 'Odia'
+  423  export ANDROID_NDK=/home/sushant/Android/Sdk/ndk/21.3.6528147
+  424  export NDK_TOOLCHAINS=/home/sushant/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin
+  425  pwd
+  426  export FLITEDIR=/home/sushant/workspace/hear2read/trial/flite_092120/flite
+  427  ./configure --with-langvox=android --target=armeabiv7a-android
+  428  make clean
+  429  make
+  430  ./configure --with-langvox=android --target=armv8-android
+  431  make clean
+  432  make
+  433  ./configure --with-langvox=android --target=x86_64-android
+  434  make clean
+  435  make
+  436  ./configure --with-langvox=android --target=x86-android
+  437  make clean
+  438  make
+  439  pwd
+  440  grep -R 'oriya'
+  441  grep -R 'ori'
+  442  grep -R '\'ori'
+  443  grep -R 'oriya'
+  444  grep -R 'Gujarati'
+  445  grep -R 'san'
+  446  grep -R 'san_demo'
+  447  ls
+  448  cd src
+  449  grep -R 'san_demo'
+  450  ls
+  451  grep -R 'san'
+  452  grep -R 'guj'
+  453  grep -R 'Oriya'
+  454  grep -R 'Gujarati'
+  455  grep -R 'Sanskrit'
+  456  grep -R '(1999-2018)'
+  457  grep -R '(1999- 2018)'
+  458  grep -R '(1999'
+  459  adb shell am clear-debug-app
+  460  grep -R 'LanguageListItem'
+  461  grep -R 'keyboard'
+  462  grep -R 'min'
+  463  grep -R 'minsdk'
+  464  grep -R 'minSdk'
+  465  grep -R 'LanguageListItem'
+  466  grep -R 'keyboard'
+  467  grep -R 'demo'
+  468  ls
+  469  ls -l
+  470  ls -a
+  471  ls -a
+  472  ls -l
+  473  cd ../
+  474  cd ../../
+  475  ls
+  476  cd H2R_app_201024/
+  477  ls -l
+  478  ls -a
+  479  cd src/
+  480  ls
+  481  cd main/
+  482  cd jni/
+  483  LS
+  484  ls
+  485  vi Android.mk 
+  486  gedit Android.mk 
+  487  grep -R 'mName'
+  488  grep -R 'play'
+  489  grep -R 'play_button'
+  490  cd ../
+  491  ls
+  492  cd H2R_app_201024/
+  493  cd src/main/
+  494  grep -r 'lytics'
+  495  cd ../../
+  496  grep -r 'gradle-wrapper.properties'
+  497  grep -r 'gradle-wrapper'
+  498  grep -r 'gradle'
+  499  man locate
+  500  locate gradle-wrapper.properties
+  501  locate -r gradle-wrapper.properties
+  502  locate -r '6.1'
+  503  grep -r '6.1'
+  504  grep -r '6.1.1'
+  505  cd .gradle/
+  506  ls
+  507  cd 6.1.1/
+  508  ls
+  509  cd ../
+  510  cd trial/Hear2Read_Engine_Android_Project_Greg_18oct2020/Hear2Read/
+  511  grep -r 'gradle-wrapper.properties'
+  512  grep -r '6.5'
+  513  grep -R '6.5'
+  514  grep -R 'gradle'
+  515  grep -r 'gradle-wrapper'
+  516  cd /home/sushant/
+  517  ssh sushanta@avicenna
+  518  touch ~/Templates/Empty\ Document
+  519  ls -l
+  520  ls -la
+  521  mkdir .Templates
+  522  cd .Templates/
+  523  cd ../
+  524  mv .Templates/ Templates
+  525  mv Templates/ .Templates
+  526  cd .Templates/
+  527  ls
+  528  mv template  Untitled
+  529  mv .Templates/ ~/.Templates/
+  530  cd ../
+  531  mv .Templates/ ~/.Templates/
+  532  cd .Templates/
+  533  ls
+  534  cd ../
+  535  mv .Templates/ ~/.Templates/
+  536  cd~
+  537  cd ~
+  538  pwd
+  539  man touch
+  540  apt-get install touch
+  541  sudo apt-get install touch
+  542  cd .Templates/
+  543  ls
+  544  cd ../
+  545  chmod -R 777 .Templates/
+  546  sudo apt-get update 
+  547  ssh sushanta@turing
+  548  ssh panisush@turing
+  549  grep -R 'asm_demo'
+  550  cd ../../../
+  551  grep -R 'asm_demo'
+  552  cd /workspace/hear2read/compare_correct/H2R_app_201024/src/main/java/org/hear2read/indic/ui/manager$ 
+  553  cd ../../../../../../../../../../workspace/hear2read/compare_correct/H2R_app_201024/src/main/java/org/hear2read/indic/ui/manager$ 
+  554  cd ../../../../../../../../../../workspace/hear2read/compare_correct/H2R_app_201024/src/main/java/org/hear2read/indic/ui/manager
+  555  pwd
+  556  ls
+  557  pwd
+  558  ls
+  559  cd ../
+  560  cd ../../
+  561  cd ../
+  562  ls
+  563  cd main/java/org/hear2read/indic/ui/manager/
+  564  ls
+  565  diff FliteManagerActivity.java /home/sushant/workspace/hear2read/compare_correct/H2R_app_201024/src/main/java/org/hear2read/indic/ui/manager
+  566  diff FliteManagerActivity.java /home/sushant/workspace/hear2read/compare_correct/H2R_app_201024/src/main/java/org/hear2read/indic/ui/manager/FliteManagerActivity.java 
+  567  perl UTF82IT3.pl 
+  568  perl UTF82IT3.pl -f test_oriya etc/Odia_PhoneSet.txt Odia Odia_new.txt
+  569  perl test.pl unique_words
+  570  ls
+  571  vi voc_hin.txt 
+  572  grep -R 'x86'
+  573  man keytool
+  574  sudo apt-get install keytool
+  575  git clone https://github.com/kaldi-asr/kaldi.git
+  576  cd kaldi/
+  577  ls
+  578  pwd
+  579  cd tools/
+  580  ls
+  581  extras/check_dependencies.sh
+  582  grep -R '.aab'
+  583  java
+  584  javac
+  585  java --version
+  586  grep -R 'odia'
+  587  grep -R 'ori'
+  588  grep -R 'ori_sample'
+  589  grep -R 'fabric'
+  590  grep -R 'crash'
+  591  grep -R 'crashlytics'
+  592  grep -R 'Crashlytics'
+  593  clear
+  594  grep -R 'Crashlytics'
+  595  grep -R '(2016-2018) Hear2Read'
+  596  grep -R '(2016-2018)Hear2Read'
+  597  grep -R '(2016-2018)'
+  598  grep -R '(2016 - 2018)'
+  599  grep -R '(2016'
+  600  grep -R 'mName= "Odia"'
+  601  grep -R 'bert-base'
+  602  grep -R 'PAD'
+  603  grep -R '128'
+  604  grep -R 'position'
+  605  grep -R 'coreference'
+  606  grep -R 'max'
+  607  grep -R 'max_l'
+  608  grep -R 'index'
+  609  grep -R 'index_token'
+  610  grep -R 'tokenized'
+  611  sudo apt-get update 
+  612  sudo apt-get install flashplugin-installer
+  613  ssh panisush@turing
+  614  git https://github.com/mandarjoshi90/coref.git
+  615  git clone git https://github.com/mandarjoshi90/coref.git
+  616  git clone https://github.com/mandarjoshi90/coref.git
+  617  cd coref/
+  618  ls
+  619  ssh sushanta@turing
+  620  ssh sushanta@avicenna
+  621  sudo adb kill-server
+  622  ls
+  623  git add gradle/ src/ local.properties build.gradle 
+  624  git commit -m "added files for v_29 release 2.3"
+  625  git remote add origin https://github.com/Hear2Read/Android.git
+  626  git push -u origin masterg
+  627  git init
+  628  git add .
+  629  git commit -m "files for v_29 release_2.3"
+  630  git remote add origin https://github.com/Hear2Read/Android.git
+  631  git remote -v
+  632  git push origin master
+  633  git pull origin master
+  634  cd ../
+  635  cd Android/
+  636  ls
+  637  git add .
+  638  git commit -m "Add files for v_29 release2.3"
+  639  git push origin master
+  640  ls
+  641  ls -a
+  642  rm .cxx
+  643  rm -rf .cxx
+  644  rm -rf .gradle/
+  645  ls -a
+  646  rm .idea
+  647  rm -rf .idea/
+  648  ls -a
+  649  git add .
+  650  git commit -m "Added files for v_29 release2.3"
+  651  git push origin master
+  652  ls -a
+  653  ls
+  654  ls -a
+  655  cd ../
+  656  cd Android/
+  657  ls
+  658  ls -a
+  659  rm -rf *
+  660  ls
+  661  rm *
+  662  rm *.
+  663  rm .*
+  664  rm -rf .*
+  665  ls -a
+  666  git add .
+  667  git
+  668  git init
+  669  git add .
+  670  ls
+  671  git commit -m "Added files for v_39 release2.3"
+  672  git push origin master
+  673  python asm_phone2sampa.py asm_test.txt > asm_test3012
+  674  python asm_phone2sampa.py test.txt > asm_test.txt 
+  675  python asm_phone2sampa.py test.txt 
+  676  python asm_phone2sampa.py test.txt > asm_test.txt 
+  677  python asm_phone2sampa.py test.txt 
+  678  python copy_words.py test.txt modifed_dictionary_full.txt 
+  679  vi modifed_dictionary.txt
+  680  festival
+  681  ls
+  682  cd installation/
+  683  ls
+  684  cd tts/
+  685  ls
+  686  festival/bin/festival
+  687  ssh sushanta2021@138.68.255.33
+  688  ssh sushanta@138.68.255.33
+  689  cd installation/
+  690  ls
+  691  cd tts
+  692  ls
+  693  mkdir
+  694  mkdir workspace
+  695  cd workspace/
+  696  ls
+  697  $FESTVOXDIR
+  698  pwd
+  699  export $ESTDIR=/home/sushant/installation/tts/speech_tools                                    
+  700  export $ESTDIR='/home/sushant/installation/tts/speech_tools'        
+  701  export $ESTDIR=/home/sushant/installation/tts/speech_tools        
+  702  export $ESTDIR= '/home/sushant/installation/tts/speech_tools'        
+  703  export $ESTDIR =/home/sushant/installation/tts/speech_tools        
+  704  export $ESTDIR = /home/sushant/installation/tts/speech_tools        
+  705  echo $HOME      
+  706  export ESTDIR=/home/sushant/installation/tts/speech_tools        
+  707  export FESTVOXDIR=/home/sushant/installation/tts/festvox        
+  708  mkdir hear2read_indic_skp
+  709  cd hear2read_indic_skp/
+  710  $FESTVOXDIR/src/clustergen/setup_cg hear2read indic skp
+  711  ls
+  712  cd /home/sushant/
+  713  ls
+  714  history > 80120
+  715  ssh -L 49507:127.0.0.1:49507 -C -N sushanta@avicenna
+  716  python
+  717  ls
+  718  cd C_
+  719  cd C_work/
+  720  python test.py 
+  721  ssh sushanta2021@138.68.255.33
+  722  ssh sushanta@138.68.255.33
+  723  source /home/sushant/installation/anconda3/bin/activate
+  724  conda activate base
+  725  ssh sushanta@138.68.255.33
+  726  ssh sushanta@138.68.255.33
+  727  top
+  728  ssh sushanta@138.68.255.33
+  729  ssh sushanta@avicenna
+  730  ssh sushanta@138.68.255.33
+  731  cd installation/
+  732  cd tts/
+  733  festival/bin/festival
+  734  cd ../
+  735  mkdir cmutts
+  736  cd cmutts/
+  737  wget http://tts.speech.cs.cmu.edu/courses/15492/slides/
+  738  man wget
+  739  wget -p http://tts.speech.cs.cmu.edu/courses/15492/slides/
+  740  python
+  741  ssh panisush@turing
+  742  du -h -d1 2>/dev/null /home/sushanta
+  743  du -h -d1 2>/dev/null /home/sushant
+  744  du -h -d1 2>/dev/null /home/
+  745  du -h -d1 2>/dev/null /
+  746  df -h
+  747  df -h /home/
+  748  df -h /home/sushant/
+  749  df -h /dev/sda5/
+  750  df -h /dev/
+  751  df -h /dev/sda5
+  752  cd /dev/sda5
+  753  ssh sushanta@avicenna
+  754  ssh sushanta@138.68.255.33
+  755  ps
+  756  top
+  757  ssh sushanta@138.68.255.33
+  758  vi -b test.txt
+  759  vi test.txt
+  760  vi new.txt
+  761  vi -b new.txt
+  762  hd -c new.txt 
+  763  ssh sushanta@138.68.255.33
+  764  ls
+  765  vi test_sent.txt 
+  766  vi -b test_sent.txt 
+  767  vi test_sent.txt 
+  768  vi -b test_sent.txt 
+  769  vi -b new.txt 
+  770  vi -b test_sent.txt 
+  771  vi test_sent.txt 
+  772  cd Downloads/
+  773  cmp asm_test_skp0114 (1).out tim_step1_20Jan2021.out 
+  774  cmp asm_test_skp0114.out tim_step1_20Jan2021.out 
+  775  diff asm_test_skp0114.out tim_step1_20Jan2021.out 
+  776  ls
+  777  cd Downloads/
+  778  ls
+  779  cd wav-20210119T190745Z-001/
+  780  ls
+  781  cd wav/
+  782  ls
+  783  cd train/
+  784  ls
+  785  cd ../
+  786  scp -r wav/ panisush@turing:/VL/space/sushantakp/speech_technology/asr/ASR-System-for-Hindi-Language/Kaldi/wav
+  787  ssh sushanta@avicenna
+  788  ssh panisush@turing
+  789  ssh sushanta@turing
+  790  ssh panisush@turing
+  791  python read_test.py 
+  792  python
+  793  python read_test.py 
+  794  python 
+  795  git clone https://github.com/Hear2Read/Android.git
+  796  cd Android
+  797  history >25012021
