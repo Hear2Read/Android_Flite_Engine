@@ -42,7 +42,7 @@ import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 
-import com.crashlytics.android.Crashlytics;
+//import com.crashlytics.android.Crashlytics;
 
 import org.hear2read.indic.R;
 
@@ -117,7 +117,7 @@ public class GetSampleText extends Activity {
         break;
 
       default:
-        Crashlytics.log(Log.WARN, LOG_TAG, "Unsupported Language: " + language);
+        //Crashlytics.log(Log.WARN, LOG_TAG, "Unsupported Language: " + language);
         result = TextToSpeech.LANG_NOT_SUPPORTED;
         returnData.putExtra("sampleText", "");
         break;

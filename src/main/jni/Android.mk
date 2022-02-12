@@ -45,7 +45,9 @@ LOCAL_PATH:= $(call my-dir)
 # We require that FLITEDIR be defined - CORRECT IT OR SET IN THE ENVIRONMENT!
 #FLITEDIR := C:/Users/greg/AppData/Local/lxss/home/greg/flite
 #FLITEDIR=/home/sushant/workspace/hear2read/trial/flite_android_64bit/flite
-FLITEDIR=/home/sushant/workspace/hear2read/trial/flite_092120/flite
+#FLITEDIR=/home/sushant/workspace/hear2read/trial/flite_092120/flite
+FLITEDIR=/home/sushant/workspace/hear2read/trial/flite_02052021/flite
+
 
 ifndef FLITEDIR
   $(error "FLITEDIR variable should be set to path where flite is compiled")

@@ -54,6 +54,7 @@ import android.os.Handler;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
 import android.speech.tts.UtteranceProgressListener;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
@@ -641,7 +642,9 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
         mTexts.clear();
         mHighlightSpans.clear();
         // A simple split according to some common EOS punctuations
-        String [] textSplit = mLanguageText.split("(?<=[?!.\\r\\n।|])", 0);
+        //02012021 String [] textSplit = mLanguageText.split("(?<=[?!.\\r\\n।|])", 0);
+        String [] textSplit = mLanguageText.split("([?!\\r\\n।|]|((?<!\\d)\\.(?!\\d))|((?<=\\d)\\.(?=\\D)))", 0);
+
         int i = 0;
         mHighlightSpans.add(0, 0);
         for (String sentence : textSplit) {
@@ -895,11 +898,15 @@ public class TTSDemoActivity extends AppCompatActivity implements OnClickListene
 
         if (utteranceID < (mHighlightSpans.size() - 1))
         mLanguageSpannable.setSpan(
-                new ForegroundColorSpan(getResources().getColor(R.color.foregroundblue)),
+               // 01282021 :removed deprecated  >   getResources().getColor(R.color.foregroundblue)
+                // new ForegroundColorSpan(getResources().getColor(R.color.foregroundblue)),
+
+                new ForegroundColorSpan(ContextCompat.getColor(getApplicationContext(),R.color.foregroundblue)),
                 mHighlightSpans.get(utteranceID),
                 mHighlightSpans.get(utteranceID + 1) - 1,
                 Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
 
+        // ContextCompat.getColor(context, R.color.your_color);
         /* UI update can't be called from synthesis thread */
         runOnUiThread(new Runnable() {
             @Override
